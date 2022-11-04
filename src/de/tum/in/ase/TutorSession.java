@@ -64,7 +64,8 @@ public final class TutorSession {
     //  then it runs both tasks with the helper function runTask
     //  and finally it tells the tutor to say goodbye.
         public void runTutorSession() {
-            tutor.printIntroduction();
+            System.out.println(tutor.getIntroduction().toUpperCase());
+//            tutor.printIntroduction();
             runTask(firstTask);
             runTask(secondTask);
             tutor.sayGoodbye();
