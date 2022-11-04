@@ -54,7 +54,7 @@ public final class TutorSession {
     //  Also you need to set the task to done. Use its setter to do so.
     public void runTask(Task task) {
         System.out.println("Lets do the task " + task.getTitle() + " now!");
-        System.out.println("... " + task.getWorkingTime() + " minutes later...");
+        System.out.println("..." + task.getWorkingTime() + " minutes later...");
         System.out.println("We are finished with " + task.getTitle() + ".");
         task.setDone(true);
     }
