@@ -11,8 +11,8 @@ public class Task {
     // TODO Task 2 Add the constructor. Make sure to use the same parameters as seen in the UML diagram and initialize the
     //  other attributes with default values
 
-    public Task(String name, int workingTime) {
-        this.title = name;
+    public Task(String title, int workingTime) {
+        this.title = title;
         this.workingTime = workingTime;
     }
 
