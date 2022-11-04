@@ -53,11 +53,10 @@ public final class TutorSession {
     //  For this output you need values from the Task given as a parameter. Use its getters to obtain these values.
     //  Also you need to set the task to done. Use its setter to do so.
     public void runTask(Task task) {
-        System.out.printf("Lets do the task %s now!", task.getTitle());
-        System.out.printf("... %d minutes later...", task.getWorkingTime());
-        System.out.printf("We are finished with %s.", task.getTitle());
+        System.out.println("Lets do the task " + task.getTitle() + " now!");
+        System.out.println("... " + task.getWorkingTime() + " minutes later...");
+        System.out.println("We are finished with " + task.getTitle() + ".");
         task.setDone(true);
-
     }
 
     // TODO Task 4 Add the method runTutorSession. It has no parameters and return nothing.
