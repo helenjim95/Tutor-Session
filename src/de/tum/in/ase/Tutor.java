@@ -46,7 +46,7 @@ public class Tutor {
     //  It returns a String and has no parameters. It prints nothing to the console.
     //  You can find the phrasing of the introduction in the problem statement on Artemis
     public String getIntroduction() {
-        return String.format("Hi, I'm %s. My favorite programming language is %s.%n", name, favoriteProgrammingLanguage);
+        return String.format("Hi, I'm %s. My favorite programming language is %s.", name, favoriteProgrammingLanguage);
     }
 
     // TODO Task 4 Add the method sayGoodbye.
