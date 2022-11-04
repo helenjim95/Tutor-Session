@@ -52,7 +52,7 @@ public final class TutorSession {
     //  It prints three lines to the command line. You can see them in the problem statement on Artemis.
     //  For this output you need values from the Task given as a parameter. Use its getters to obtain these values.
     //  Also you need to set the task to done. Use its setter to do so.
-    public void runTask(Task task) {
+    private void runTask(Task task) {
         System.out.println("Lets do the task " + task.getTitle() + " now!");
         System.out.println("..." + task.getWorkingTime() + " minutes later...");
         System.out.println("We are finished with " + task.getTitle() + ".");
